@@ -3,14 +3,14 @@
 /**
  * main: Program that prints
  *
- * description: Program that prints
+ * Description: Program that prints a exact phrase
  *
- * return: zero on success
+ * Return: success
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return (0);/*just an integer*/
 }
 
