@@ -1,12 +1,8 @@
-/* Program that prints */
 #include <stdio.h>
-
 /**
  * main: Program that prints
- *
- * Description: Program that prints a exact phrase
- *
- * Return: success
+ * Description: Program that prints a exact phrase.
+ * Return: 0 All success
  */
 
 int main(void)
