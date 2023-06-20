@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int character
+	int character;
 	for (character = 'A'; character <= 'Z'; character++)
 	{
 		character = tolower(character);
