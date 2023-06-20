@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: Program that prints
- * Description: Program that prints a exact phrase.
+ * main - Entry point
+ * Description: Program that prints an exact phrase.
  * Return: 0 All success
  */
 
