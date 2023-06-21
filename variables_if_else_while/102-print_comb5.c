@@ -12,19 +12,25 @@ int main(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			for (k = i; k < 10; k++)
+			for (k = 0; k < 10; k++)
 			{
-				for (l = j + 1; l <= 10; l++)
+				if (k >= i)
 				{
-					putchar((i % 10) + '0');
-					putchar((j % 10) + '0');
-					putchar(' ');
-					putchar((k % 10) + '0');
-					putchar((l % 10) + '0');
-					if (j != 9)
+					for (l = j + 1; l < 10; l++)
 					{
-						putchar(',');
-						putchar(' ');
+						if (l > j)
+						{
+							putchar((i % 10) + '0');
+							putchar((j % 10) + '0');
+							putchar(' ');
+							putchar((k % 10) + '0');
+							putchar((l % 10) + '0');
+						}
+						if (j != 9)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
