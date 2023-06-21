@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs - Entry point.
+ * print_last_digit - Entry point.
  * @n: Variable
  * Description: Program description.
  * Return: n or -n All success
