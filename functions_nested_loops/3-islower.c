@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _islower() - Entry point
+ * _islower - Entry point
+ * @i: Variable
  * Description: Program description.
  * Return: 0 or 1 All success
  */
