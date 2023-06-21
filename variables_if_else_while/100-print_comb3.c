@@ -15,13 +15,13 @@ int main(void)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
-			putchar(',');
-			putchar(' ');
-			if (i == 8)
+			if (i != 8)
 			{
-				putchar('\n');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
