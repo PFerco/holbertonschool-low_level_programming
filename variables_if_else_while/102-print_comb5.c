@@ -16,11 +16,11 @@ int main(void)
 			{
 				for (l = k + 1; l < 10; l++)
 				{
-					putchar(i);
-					putchar(j);
+					putchar((i % 10) + '0');
+					putchar((j % 10) + '0');
 					putchar(' ');
-					putchar(k);
-					putchar(l);
+					putchar((k % 10) + '0');
+					putchar((l % 10) + '0');
 					if (j != 9)
 					{
 						putchar(',');
