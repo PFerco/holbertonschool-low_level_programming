@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * print_sign - Entry point
+ * @n: Variable
+ * Description: Program description.
+ * Return: 0 or 1 All success
+ */
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+		_putchar('+');
+	} else if (n < 0)
+	{
+		_putchar('-');
+	} else 
+		_putchar('0');
+	_putchar('\n');
+}
