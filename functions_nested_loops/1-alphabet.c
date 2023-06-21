@@ -5,7 +5,7 @@
  * Description: Program description.
  * Return: 0 All success
  */
-void print_alphabet(void)
+void main(void)
 {
 	char c;
 
