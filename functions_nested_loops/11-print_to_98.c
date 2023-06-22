@@ -25,7 +25,7 @@ void print_to_98(int n)
 				if (i == -1)
 				{
 					_putchar('-');
-					_putchar((n / 10) + '0');
+					_putchar((n / 10) * i + '0');
 				} else
 					_putchar((n / 10) + '0');
 			}
