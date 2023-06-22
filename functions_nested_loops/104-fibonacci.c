@@ -11,13 +11,13 @@ int main(void)
 
 	printf("%lu, ", n1);
 	printf("%lu, ", n2);
-	for (i = 1; i <= 98; i++)
+	for (i = 1; i <= 96; i++)
 	{
 		sum = n1 + n2;
 		n1 = n2;
 		n2 = sum;
 		printf("%lu", sum);
-		if (i != 98)
+		if (i != 96)
 		{
 			printf(", ");
 		}
