@@ -16,7 +16,7 @@ int main(void)
 		sum = n1 + n2;
 		n1 = n2;
 		n2 = sum;
-		printf("%lu", sum);
+		printf("%lu, ", sum);
 	}
 	n1m1 = n1 / 10000000000;
 	n1m2 = n1 % 10000000000;
