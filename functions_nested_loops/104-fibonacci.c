@@ -9,8 +9,8 @@ int main(void)
 	int i;
 	unsigned long n1 = 1, n2 = 2, sum, n1m1, n1m2, n2m1, n2m2, m1, m2;
 
-	printf("%lu", n1);
-	printf("%lu", n2);
+	printf("%lu, ", n1);
+	printf("%lu, ", n2);
 	for (i = 1; i <= 90; i++)
 	{
 		sum = n1 + n2;
@@ -32,7 +32,7 @@ int main(void)
 			m2 %= 10000000000;
 		}
 		printf("%lu%lu", m1, m2);
-		if (i != 96)
+		if (i != 95)
 		{
 			printf(", ");
 		}
