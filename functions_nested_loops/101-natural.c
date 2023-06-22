@@ -9,13 +9,14 @@ int main(void)
 	int sum = 0;
 	int i;
 
-	for (i = 2; i < 1024; i++)
+	for (i = 3; i < 1024; i *= 3)
 	{
-		if (1024 % i == 0)
+		if ((i % 3 == 0) || (i % 5) == 0)
 		{
 			sum += i;
 		}
 	}
+
 	printf("%d", sum);
 	return (0);
 }
