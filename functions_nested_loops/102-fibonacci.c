@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int i, n1 = 1, n2 = 2, sum;
+	int i;
+	unsigned long n1 = 1, n2 = 2, sum;
 
 	printf("%d, ", n1);
 	printf("%d, ", n2);
