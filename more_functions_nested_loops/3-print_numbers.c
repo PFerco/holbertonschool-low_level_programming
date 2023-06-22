@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 /**
  * print_numbers - Entry point.
  * Description: Program description.
