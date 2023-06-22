@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * times_table - Entry point.
- * @n: Variable
  * Description: Program description.
  * Return: Void
  */
@@ -16,10 +15,16 @@ void times_table(void)
 			if (i >= 2)
 			{
 				_putchar((i * j) / 10 + '0');
+			} else
+			{
+				_putchar(' ');
 			}
 			_putchar((i * j) % 10 + '0');
-			_putchar(',');
-			_putchar(' ');
+			if (j != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
