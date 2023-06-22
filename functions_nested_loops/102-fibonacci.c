@@ -11,13 +11,13 @@ int main(void)
 
 	printf("%lu, ", n1);
 	printf("%lu, ", n2);
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i <= 48; i++)
 	{
 		sum = n1 + n2;
 		n1 = n2;
 		n2 = sum;
 		printf("%lu", sum);
-		if (i != 50)
+		if (i != 48)
 		{
 			printf(", ");
 		}
