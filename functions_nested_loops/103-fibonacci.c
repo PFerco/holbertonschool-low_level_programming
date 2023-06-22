@@ -6,14 +6,6 @@
  */
 int main(void)
 {
-#include <stdio.h>
-/**
- * main - Entry point
- * Description: Program description.
- * Return: 0 All success
- */
-int main(void)
-{
 	int i;
 	unsigned long n1 = 1, n2 = 2, sum;
 
