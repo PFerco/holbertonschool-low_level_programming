@@ -22,7 +22,7 @@ int main(void)
 	n1m2 = n1 % 10000000000;
 	n2m1 = n2 / 10000000000;
 	n2m2 = n2 % 10000000000;
-	for (i = 91; i < 96; i++)
+	for (i = 91; i <= 96; i++)
 	{
 		m1 = n1m1 + n2m1;
 		m2 = n1m2 + n2m2;
@@ -32,7 +32,7 @@ int main(void)
 			m2 %= 10000000000;
 		}
 		printf("%lu%lu", m1, m2);
-		if (i != 95)
+		if (i != 96)
 		{
 			printf(", ");
 		}
