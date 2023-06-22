@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	unsigned long n1 = 1, n2 = 2, sum;
+	unsigned long n1 = 1, n2 = 2, sum, suma = 3;
 
 	printf("%lu, ", n1);
 	printf("%lu, ", n2);
@@ -20,13 +20,10 @@ int main(void)
 			n2 = sum;
 			if (sum % 2 == 0)
 			{
-				printf("%lu", sum);
-			}
-			if (i != 48)
-			{
-				printf(", ");
+				suma += sum;
 			}
 		}
+		printf("%lu", suma);
 	}
 	printf("\n");
 	return (0);
