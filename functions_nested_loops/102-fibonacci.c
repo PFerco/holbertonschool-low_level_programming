@@ -15,7 +15,7 @@ int main(void)
 		sum = n1 + n2;
 		n1 = n2;
 		n2 = sum;
-		printf("%d", sum);
+		printf("%lu", sum);
 		if (i != 50)
 		{
 			printf(", ");
