@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	unsigned long long n1 = 1, n2 = 2, sum;
+	unsigned long long int n1 = 1, n2 = 2, sum;
 
 	printf("%llu", n1);
 	printf("%llu", n2);
