@@ -7,16 +7,16 @@
 int main(void)
 {
 	int i;
-	unsigned long n1 = 1, n2 = 2, sum;
+	unsigned long long n1 = 1, n2 = 2, sum;
 
-	printf("%lu, ", n1);
-	printf("%lu, ", n2);
+	printf("%llu, ", n1);
+	printf("%llu, ", n2);
 	for (i = 1; i <= 96; i++)
 	{
 		sum = n1 + n2;
 		n1 = n2;
 		n2 = sum;
-		printf("%lu", sum);
+		printf("%llu", sum);
 		if (i != 96)
 		{
 			printf(", ");
