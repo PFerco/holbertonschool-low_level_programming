@@ -22,7 +22,7 @@ void print_to_98(int n)
 			}
 			if ((n / 10) * i > 0)
 			{
-				if (i = -1)
+				if (i == -1)
 				{
 					_putchar('-');
 					_putchar((n / 10) + '0');
