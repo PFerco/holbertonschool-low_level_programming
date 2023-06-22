@@ -9,8 +9,8 @@ int main(void)
 	int i;
 	unsigned long n1 = 1, n2 = 2, sum;
 
-	printf("%d, ", n1);
-	printf("%d, ", n2);
+	printf("%lu, ", n1);
+	printf("%lu, ", n2);
 	for (i = 1; i <= 50; i++)
 	{
 		sum = n1 + n2;
