@@ -2,4 +2,4 @@ all: school
 
 school:
 	@echo "j#0000000000000000000000000000000000000"
-	./school
+	gcc school
