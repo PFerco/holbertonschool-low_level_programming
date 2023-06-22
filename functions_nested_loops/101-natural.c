@@ -2,9 +2,9 @@
 /**
  * main - Entry point.
  * Description: Program description.
- * Return: sum.
+ * Return: 0.
  */
-void main(void)
+int main(void)
 {
 	int sum = 0;
 	int i;
@@ -17,4 +17,5 @@ void main(void)
 		}
 	}
 	printf("%d", sum);
+	return (0);
 }
