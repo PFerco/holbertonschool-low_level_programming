@@ -10,5 +10,7 @@ int _isupper(int c)
 	if (c >= 'a' && c <= 'z')
 		return (0);
 	else if (c >= 'Z' && c <= 'Z')
+	{
 		return (1);
+	}
 }
