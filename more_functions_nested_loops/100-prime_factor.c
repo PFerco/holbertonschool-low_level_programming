@@ -10,10 +10,9 @@ int main(void)
 
 	for (np1 = 2; (np1 < 612852475143 / 2) && (n % np1 == 0); )
 	{
-		for (np2 = np1; n % np2 == 0; )
+		for (np2 = np1; n % np2 != 0; )
 		{
 			n /= np2;
-			np2++;
 		}
 	}
 	printf("%ld\n", np2);
