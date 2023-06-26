@@ -8,7 +8,7 @@ int main(void)
 {
 	long n = 612852475143, np1;
 
-	for (np1 = 2; (np1 < 612852475143 / 2) && (n % np1 == 0); np1++)
+	for (np1 = 2; np1 < 612852475143 / 2; np1++)
 	{
 		while (n % np1 == 0)
 		{
