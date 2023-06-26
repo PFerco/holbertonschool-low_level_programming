@@ -8,6 +8,6 @@
 void _puts(char *str)
 {
 	str = "I do not fear computers. Ifear the lack of them - Isaac Asimov";
-	_putchar(%c, *str);
-	_putchar('\n');
+	putchar(%c, *str);
+	putchar('\n');
 }
