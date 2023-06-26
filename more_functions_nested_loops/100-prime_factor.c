@@ -4,7 +4,7 @@
  * Description: Program description.
  * Return: 0 All success
  */
-void main(void)
+int main(void)
 {
 	long n = 612852475143, np;
 
@@ -13,4 +13,5 @@ void main(void)
 		n /= np;
 	}
 	printf("%ld\n", np);
+	return (0);
 }
