@@ -15,6 +15,6 @@ int main(void)
 			n /= np1;
 		}
 	}
-	printf("%ld\n", np1);
+	printf("%ld\n", n);
 	return (0);
 }
