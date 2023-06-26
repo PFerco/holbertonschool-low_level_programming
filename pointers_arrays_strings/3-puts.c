@@ -7,7 +7,7 @@
  */
 void _puts(char *str)
 {
-	while (*str)
-		puts(*str++);
+	str = "I do not fear computers. Ifear the lack of them - Isaac Asimov";
+	puts(str);
 	puts('\n');
 }
