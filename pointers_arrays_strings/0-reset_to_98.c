@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reset_to_98 - Entry point.
- * @*n: Pointer.
+ * @n: Pointer.
  * Description: Program description.
  * Return: void All success
  */
